@@ -148,7 +148,7 @@ void water(int x)
 
     ////////////////////////////////////////////////////boat
 
-    ////////////////////////////////noukar body
+    ////////////////////////////////body
     glColor3ub (150, 129, 117);
     glBegin(GL_QUADS);
     glVertex2i(20, 220);
@@ -156,7 +156,7 @@ void water(int x)
     glVertex2i(70, 230);
     glVertex2i(10, 230);
     glEnd();
-    ///////////////////////////////noukar soi
+    /////////
     glColor3ub (206, 175, 109);
     glBegin(GL_POLYGON);
     glVertex2i(27, 230);
@@ -165,21 +165,21 @@ void water(int x)
     glVertex2i(27, 240);
     glEnd();
     //glFlush();
-    ////////////////////////////////pal er chera kapor
+    
     glColor3ub (209, 102, 27);
     glBegin(GL_TRIANGLES);
     glVertex2i(57, 230);
     glVertex2i(90, 280);
     glVertex2i(50, 290);
     glEnd();
-        ///////////////////////////noukar pal er khuda :D
+        ////////////////////////
     glColor3ub (206, 175, 109);
     glBegin(GL_LINES);
     glVertex2i(57, 230);
     glVertex2i(73, 290);
     glEnd();
 
-    /////////////////////////////////gach er guri
+    /////////////////////////////
     glColor3ub (206, 175, 109);
     glBegin(GL_POLYGON);
     glVertex2i(300, 200);
@@ -194,7 +194,7 @@ void water(int x)
     glVertex2i(305, 217);
     glEnd();
     glFlush();
-    /////////////////////////////////gach er gurir shadow
+    /////////////////////////////
     glColor3ub (149, 187, 198);
     glBegin(GL_POLYGON);
     glVertex2i(295, 190);
@@ -203,7 +203,7 @@ void water(int x)
     glVertex2i(300, 200);
     glEnd();
     glFlush();
-    ///////////////////////////////noukar shadow
+    ////////////////////////
     glColor3ub (149, 187, 198);
     glBegin(GL_QUADS);
     glVertex2i(15, 210);
@@ -293,7 +293,7 @@ void vera()
 	glVertex2i(232, 150);
     glEnd();
     glFlush();
-    ///////////////////////////////////////////////verar shadow
+    /////////////////////////////////////////////// shadow
     glColor3ub (79, 214, 72);////////body
 	DrawCircle(180, 110, 15, 1000);
 
@@ -314,7 +314,7 @@ void house()
     glVertex2i(70, 250);
     glVertex2i(90, 200);
     glEnd();
-    //////////////line of chal
+    //////////////line
     glColor3ub (170, 140, 70);
     glBegin(GL_LINES);
     glVertex2i(55, 200);
@@ -323,7 +323,7 @@ void house()
     //glVertex2i(70, 200);
 
     glEnd();
-    ///////////////////right  chal
+    ///////////////////right
     glColor3ub (219, 183, 72);
     glBegin(GL_QUADS);
     glVertex2i(90, 200);
@@ -349,7 +349,7 @@ void house()
     glVertex2i(90, 200);
     glEnd();
 
-    ///////////////////right body janala (left)
+    ///////////////////right body (left)
     glColor3ub (90, 90, 90);
     glBegin(GL_QUADS);
     glVertex2i(95, 160);
@@ -357,7 +357,7 @@ void house()
     glVertex2i(110, 187);
     glVertex2i(95, 187);
     glEnd();
-    /////////////////////right body janala (right)
+    /////////////////////right body  (right)
     glColor3ub (90, 90, 90);
     glBegin(GL_QUADS);
     glVertex2i(145, 160);
@@ -365,7 +365,7 @@ void house()
     glVertex2i(160, 187);
     glVertex2i(145, 187);
     glEnd();
-    ////////////left body janala
+    ////////////left body 
     glColor3ub (90, 90, 90);
     glBegin(GL_QUADS);
     glVertex2i(65, 160);
@@ -411,7 +411,7 @@ void house()
     glVertex2i(560, 110);
     glVertex2i(540, 110);
     glEnd();
-    ////////////////////////left janala
+    ////////////////////////
     glColor3ub (153, 1, 153);
     glBegin(GL_QUADS);
     glVertex2i(510, 85);
@@ -419,7 +419,7 @@ void house()
     glVertex2i(520, 105);
     glVertex2i(510, 105);
     glEnd();
-    ///////////////////////////right janala
+    /////////////////////////
     glColor3ub (153, 1, 153);
     glBegin(GL_QUADS);
     glVertex2i(580, 85);
@@ -455,7 +455,7 @@ void house()
     glVertex2i(505, 180);
     glEnd();
     glFlush();
-    /////////////////////////upper body janala
+    /////////////////////////upper body
     glColor3ub (153, 1, 153);
     glBegin(GL_QUADS);
     glVertex2i(530, 160);
@@ -513,13 +513,13 @@ void land()
 
 void tree()
 {
-    //////////////////////////////////////pata
+  
     glColor3ub (51, 204, 51);
     DrawCircle(50, 280, 50, 2000);//1
     DrawCircle(50, 320, 35, 3000);//1
     glEnd();
     glFlush();
-    ////////////////////////////////majher daal
+    //////////////////////////////
     glColor3ub (180, 180, 40);
     glBegin(GL_QUADS);
     glVertex2i(40, 155);
@@ -527,7 +527,7 @@ void tree()
     glVertex2i(60, 245);
     glVertex2i(40, 245);
     glEnd();
-    //////////////////////////////////bam daal
+    //////////////////////////////////
     glColor3ub (180, 180, 40);
     glBegin(GL_QUADS);
     glVertex2i(40, 245);
@@ -535,7 +535,7 @@ void tree()
     glVertex2i(40, 270);
     glVertex2i(30, 270);
     glEnd();
-    /////////////////////////////////right daal
+    /////////////////////////////////right
     glColor3ub (180, 180, 40);
     glBegin(GL_QUADS);
     glVertex2i(50, 245);
@@ -577,7 +577,7 @@ void road()
     glVertex2i(640, 60);
     glVertex2i(0, 60);
     glEnd();
-    /////////////////////////////////road er majher daag
+    /////////////////////////////////road
     glColor3ub (252, 252, 252);
     //glLineWidth(20.0f);
     glBegin(GL_LINES);
@@ -642,7 +642,7 @@ void shipyard()
     glVertex2i(400, 210);
     glVertex2i(370, 210);
     glEnd();
-    ////////////////////khuti and dori
+    //////////////////
     glColor3ub (142, 27, 227);
     glBegin(GL_LINES);
     glVertex2i(340, 170);
@@ -651,14 +651,14 @@ void shipyard()
     glVertex2i(340, 200);
     glVertex2i(350, 195);
     glEnd();
-    //////////////////////////////////khutir shadow
+    //////////////////////////
     glColor3ub (79, 214, 72);
 
     glBegin(GL_LINES);
     glVertex2i(340, 170);
     glVertex2i(310, 100);
     glEnd();
-    /////////////////////////////////////nouka er shadow
+    /////////////////////////////////////shadow
     glColor3ub (79, 214, 72);
     glBegin(GL_QUADS);
     glVertex2i(350, 170);
@@ -912,7 +912,7 @@ void birds(int x)
     glEnd();
 }
 
-//////////////////////////the car (audy)
+//////////////////////////the car
 void car(int x)
 {
     glColor3ub(255, 0, 0);///////////back
@@ -1011,7 +1011,7 @@ void car(int x)
     glEnd();
 
     /////////////
-    glColor3ub(255,0,0);/////////door er nicher ongsho
+    glColor3ub(255,0,0);/////////door
     glBegin(GL_QUADS);
     glVertex2i(20, 20);
     glVertex2i(140, 20);
@@ -1059,7 +1059,7 @@ void car(int x)
     glEnd();
     /////////////
 
-    glColor3ub (0,0,0);    ////////////////chakka
+    glColor3ub (0,0,0);    
     DrawCircle(50, 20, 10, 6000);//1
     DrawCircle(100, 20, 10, 6000);//1
 
@@ -1206,7 +1206,7 @@ void myDisplay(void)
 // draw the registration number in white
     glColor3f(1.0, 1.0, 1.0);
   const  char* regNumber = "11905184";
-	 //--------------------------------------------------------------------------------added by me adititional------------------------------
+	 //--------------------------------------------------------------------------------added by me adititional for bottom bar------------------------------
 	glRasterPos2f(-0.9, -0.95);
     glutBitmapString(GLUT_BITMAP_HELVETICA_18, (unsigned const char*)regNumber);
 
