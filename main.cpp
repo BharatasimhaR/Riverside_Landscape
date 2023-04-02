@@ -1,7 +1,7 @@
 
 
 
-////
+/////////////////////////////////////CA3-riverside landscape
 
 
 
@@ -1181,6 +1181,14 @@ void movebirds()
 	birds(1);
 	glPopMatrix();
 }
+/////////////////////////////////////////////////////registration number
+void drawNum(float x,float y,char s)
+{
+glRasterPos2f(x, y); //position for drawing
+glColor4f(1.0,1.0,1.0,1.0);
+glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, s); // Draw number
+}
+
 void myDisplay(void)
 {
     sky();
@@ -1196,6 +1204,14 @@ void myDisplay(void)
     movebirds();
     tree();
     road();
+    drawNum(264,5,'1');
+    drawNum(280,5,'1');
+    drawNum(296,5,'9');    
+    drawNum(312,5,'0');
+    drawNum(328,5,'5');
+    drawNum(344,5,'1');	
+    drawNum(360,5,'8');
+    drawNum(376,5,'4');
 
     movemegh();
     house();
