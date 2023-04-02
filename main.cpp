@@ -1188,6 +1188,13 @@ glRasterPos2f(x, y); //position for drawing
 glColor4f(1.0,1.0,1.0,1.0);
 glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, s); // Draw number
 }
+/////////////////////////////////////////////////////topic
+void drawLetter(float x,float y,char s)
+{
+glRasterPos2f(x, y); //position for drawing
+glColor4f(0,0,0,1);
+glutBitmapCharacter(GLUT_BITMAP_TIMES_ROMAN_24, s); // Draw number
+}
 
 void myDisplay(void)
 {
@@ -1212,6 +1219,24 @@ void myDisplay(void)
     drawNum(344,5,'1');	
     drawNum(360,5,'8');
     drawNum(376,5,'4');
+    drawLetter(190,440,'R');
+    drawLetter(205,440,'i');
+    drawLetter(220,440,'v');
+    drawLetter(235,440,'e');
+    drawLetter(250,440,'r');
+    drawLetter(265,440,'s');
+    drawLetter(280,440,'i');
+    drawLetter(295,440,'d');
+    drawLetter(310,440,'e');
+    drawLetter(330,440,'L');
+    drawLetter(345,440,'a');
+    drawLetter(360,440,'n');
+    drawLetter(375,440,'d');
+    drawLetter(390,440,'s');
+    drawLetter(405,440,'c');
+    drawLetter(420,440,'a');
+    drawLetter(435,440,'p');
+    drawLetter(450,440,'e');	
 
     movemegh();
     house();
